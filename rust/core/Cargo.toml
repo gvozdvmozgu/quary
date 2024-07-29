@@ -9,7 +9,7 @@ rust-version = "1.79.0"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-prost = { default-features = false, version = "0.12" }
+prost = { default-features = false, version = "0.13" }
 sqlparser = { default-features = false, version = "0.45" }
 quary_proto = { path = "../../proto/gen/rust" }
 sqlinference = { path = "../sqlinference" }
